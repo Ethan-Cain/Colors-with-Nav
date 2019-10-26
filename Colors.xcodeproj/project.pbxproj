@@ -15,6 +15,8 @@
 		E34A479E2344CD5000F2C37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34A479D2344CD5000F2C37B /* Assets.xcassets */; };
 		E34A47A12344CD5000F2C37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A479F2344CD5000F2C37B /* LaunchScreen.storyboard */; };
 		E34A47AC2344CD5000F2C37B /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A47AB2344CD5000F2C37B /* ColorsUITests.swift */; };
+		E382D4922363ED2500DC8C80 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382D4912363ED2500DC8C80 /* Color.swift */; };
+		E382D4942363EF7B00DC8C80 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382D4932363EF7B00DC8C80 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		E34A47A72344CD5000F2C37B /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34A47AB2344CD5000F2C37B /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		E34A47AD2344CD5000F2C37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382D4912363ED2500DC8C80 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E382D4932363EF7B00DC8C80 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				E34A479F2344CD5000F2C37B /* LaunchScreen.storyboard */,
 				E34A47A22344CD5000F2C37B /* Info.plist */,
 				E34A479A2344CD4F00F2C37B /* Colors.xcdatamodeld */,
+				E382D4912363ED2500DC8C80 /* Color.swift */,
+				E382D4932363EF7B00DC8C80 /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				E34A479C2344CD4F00F2C37B /* Colors.xcdatamodeld in Sources */,
 				E34A47922344CD4F00F2C37B /* AppDelegate.swift in Sources */,
 				E34A47942344CD4F00F2C37B /* SceneDelegate.swift in Sources */,
+				E382D4942363EF7B00DC8C80 /* ColorDetailViewController.swift in Sources */,
+				E382D4922363ED2500DC8C80 /* Color.swift in Sources */,
 				E30DE3882347EFAB00567F40 /* colorsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
